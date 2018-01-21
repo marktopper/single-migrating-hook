@@ -1,0 +1,20 @@
+{
+	"name": "single-migrating-hook",
+	"description": "This is a hook",
+	"extra": {
+		"hook": {
+			"migrations": [
+				"resources/database/migrations/2018_01_21_000000_create_tests_table.php"
+			],
+			"seeders": [
+				"resources/database/seeders/DatabaseTableSeeder.php"
+			],
+			"unseeders": [
+				"resources/database/unseeders/DatabaseTableUnseeder.php"
+			],
+			"assets": {
+				"resources/assets/scripts/alert.js": "public/vendor/migration-hook/assets/scripts/alert.js"
+			}
+		}
+	}
+}
