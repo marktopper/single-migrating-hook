@@ -13,7 +13,7 @@
 				"resources/database/unseeders/TestsTableUnseeder.php"
 			],
 			"assets": {
-				"resources/assets/scripts/alert.js": "public/vendor/single-migration-hook/assets/scripts/alert.js"
+				"resources/assets/scripts/alert.js": "public/vendor/single-migrating-hook/assets/scripts/alert.js"
 			}
 		}
 	}
